@@ -1,0 +1,9 @@
+This program is a simple rule-based chatbot built using Python. It responds to user inputs by recognizing specific keywords or phrases using if-else statements. When the user interacts with the chatbot, it provides responses based on a set of predefined rules.
+
+Key Features:
+Basic Greetings: The chatbot can respond to common greetings like "hello" or "hi" with friendly replies.
+Conversation Flow: It handles simple conversation queries such as "how are you?" or "what's your name?" to simulate basic dialogue.
+Time Query: If the user asks for the current time, the chatbot will fetch and display the system's current time.
+Exit Condition: The chatbot recognizes the word "bye" and ends the conversation gracefully.
+Fallback Responses: If the user input doesn't match any predefined rules, the chatbot asks the user to rephrase, indicating it's unable to process the input.
+This basic chatbot demonstrates how natural language processing can be implemented with simple rule-based techniques, providing a foundational understanding of conversational flow and input handling
