@@ -1,0 +1,20 @@
+This program implements a Tic-Tac-Toe game with an AI opponent using the Minimax algorithm with Alpha-Beta Pruning to make the AI unbeatable. The game is played between a human user and the AI, with the human playing as 'X' and the AI playing as 'O'.
+
+Key Features:
+Tic-Tac-Toe Board: The game is played on a 3x3 grid, where the human player and the AI take turns marking the board.
+
+Minimax Algorithm: The AI uses the Minimax algorithm to evaluate every possible move it can make. It tries to maximize its chances of winning while minimizing the chances of the human player winning.
+
+Alpha-Beta Pruning: The algorithm is optimized with Alpha-Beta Pruning, which cuts off unnecessary branches in the game tree, making the decision-making process faster by avoiding irrelevant computations.
+
+Winner Detection: After each move, the game checks for a winner by looking at the rows, columns, and diagonals. The game ends if either the human or AI wins.
+
+Draw Detection: The game also checks if the board is full and declares a draw if no more moves are possible.
+
+User Input: The human player inputs their move by selecting a row and column on the board.
+
+How It Works:
+The human player inputs their move first by entering row and column values.
+The AI then calculates the best possible move using the Minimax algorithm and makes its move.
+The game continues until either the human player or AI wins, or the board is filled, resulting in a draw.
+This project helps to understand fundamental concepts in game theory and search algorithms, making the AI strategy unbeatable in the game of Tic-Tac-Toe.
